@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:id="@+id/relativeLayout"
+	android:layout_alignParentRight="true" android:layout_height="wrap_content">
+	<TextView android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_height="wrap_content" android:id="@+id/textView1"
+		android:layout_alignParentLeft="true" android:text="@string/userName"
+		android:layout_width="match_parent"></TextView>
+	<EditText android:id="@+id/editText2" android:inputType="textPersonName"
+		android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1"
+		android:layout_alignRight="@+id/textView1" android:layout_width="match_parent"
+		android:layout_height="40dip"></EditText>
+	<TextView android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_height="wrap_content" android:id="@+id/textView2"
+		android:layout_below="@+id/editText2" android:layout_alignLeft="@+id/editText2"
+		android:layout_width="match_parent" android:text="@string/password"></TextView>
+	<EditText android:id="@+id/editText3" android:inputType="textPassword"
+		android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2"
+		android:layout_width="match_parent" android:layout_height="40dip"></EditText>
+	<Button android:id="@+id/button1" android:layout_width="wrap_content"
+		android:layout_below="@+id/editText3" android:layout_alignRight="@+id/editText3"
+		android:text="@string/signIn" android:layout_height="40dip"
+		android:onClick="buttonClick" android:clickable="true"></Button>
+	<TextView android:text="@string/signUpAd"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/textView3" android:layout_below="@+id/button1"
+		android:layout_alignRight="@+id/button1"></TextView>
+	<TextView android:layout_height="wrap_content" android:id="@+id/textView5"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_below="@+id/textView3" android:layout_alignLeft="@+id/textView3"
+		android:layout_alignRight="@+id/textView3" android:text="@string/signUp"
+		android:layout_marginLeft="25dip" android:onClick="onClick"
+		android:clickable="true"></TextView>
+</RelativeLayout>
+

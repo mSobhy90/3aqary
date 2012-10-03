@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:id="@+id/relativeLayout"
+	android:layout_alignParentRight="true" android:layout_height="wrap_content">
+	<ImageView android:id="@+id/imageView7" android:layout_width="wrap_content"
+		android:src="@drawable/logo" android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" android:layout_marginLeft="40dip"></ImageView>
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content" android:id="@+id/textView1"
+		android:layout_height="wrap_content" android:layout_below="@+id/imageView7"
+		android:layout_marginLeft="100dip" android:text="@string/welcomeSplash"></TextView>
+	<ImageView android:id="@+id/imageView1" android:layout_width="wrap_content"
+		android:src="@drawable/aaqary3" android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1" android:layout_marginLeft="70dip"></ImageView>
+	<DigitalClock android:id="@+id/digitalClock1"
+		android:text="DigitalClock" android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_below="@+id/imageView1"
+		android:layout_alignLeft="@+id/imageView1" android:layout_alignRight="@+id/imageView1"
+		android:layout_width="match_parent" android:layout_marginLeft="30dip"
+		android:layout_marginTop="10dip"></DigitalClock>
+	<ProgressBar android:id="@+id/progressBar1"
+		android:layout_width="wrap_content" style="?android:attr/progressBarStyleLarge"
+		android:layout_height="wrap_content" android:layout_below="@+id/digitalClock1"
+		android:layout_marginLeft="120dip" android:layout_marginTop="15dip"></ProgressBar>
+	<TextView android:layout_width="wrap_content"
+		android:layout_marginTop="15dip" android:text="@string/loading"
+		android:id="@+id/textView2" android:layout_height="wrap_content"
+		android:layout_below="@+id/progressBar1" android:layout_marginLeft="130dip"></TextView>
+	<TextView android:layout_width="wrap_content" android:id="@+id/textView3"
+		android:layout_alignParentBottom="true" android:layout_height="wrap_content"
+		android:text="@string/copyRights" android:layout_marginLeft="10dip"></TextView>
+</RelativeLayout>

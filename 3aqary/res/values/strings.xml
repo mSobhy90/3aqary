@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">3aqary</string>
+	<string name="userName">User Name:</string>
+	<string name="password">Password:</string>
+	<string name="signIn">Sign in</string>
+	<string name="signUpAd">Selling/Renting Your Appartment?!  </string>
+	<string name="signUp">
+		<u>
+			<i>Sign Up Now!!</i>
+		</u>
+	</string>
+	<string name="editData">
+		<u>
+			<i>Edit Personal Info.</i>
+		</u>
+	</string>
+	<string name="showApp">
+		<u>
+			<i>Show/Delete Appartments</i>
+		</u>
+	</string>
+	<string name="addApp">
+		<u>
+			<i>Upload Appartment</i>
+		</u>
+	</string>
+	<string name="firstName">First Name:</string>
+	<string name="lastName">Last Name:</string>
+	<string name="phoneNo">Phone No.:</string>
+	<string name="mobileNo">Mobile No.</string>
+	<string name="emailAddress">E-Mail:</string>
+	<string name="creditCardNo">Credit Card No.:</string>
+	<string name="welcomeSplash">Welcome to</string>
+	<string name="loading">Loading....</string>
+	<string name="copyRights">
+		<i>Copyright © 2011 3aqary™, All Rights Reserved.</i>
+	</string>
+	<string name="menuAnimateTo">Animate To: Your Place.</string>
+	<string name="menuViewApp">View Appartment&gt;</string>
+	<string name="dataEntryTitle">Data Entry Form</string>
+</resources>
