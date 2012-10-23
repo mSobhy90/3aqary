@@ -1,46 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="aaqary.MobileApp" android:versionCode="1" android:versionName="1.0">
-	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-	<uses-permission android:name="android.permission.INTERNET" />
-	<uses-sdk android:minSdkVersion="10" />
+    package="aaqary.MobileApp"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
-	<application android:icon="@drawable/logo2" android:label="@string/app_name">
-		<activity android:name=".MainPackage.AaqarySplashScreen"
-			android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
-			<intent-filter>
-				<action android:name="android.intent.action.MAIN" />
-				<category android:name="android.intent.category.LAUNCHER" />
-			</intent-filter>
-		</activity>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
-		<activity android:name="aaqary.MobileApp.MainPackage.AaqaryActivity"
-			android:theme="@android:style/Theme.NoTitleBar">
-		</activity>
-		<uses-library android:required="true" android:name="com.google.android.maps" />
-		<activity android:name=".GoogleMaps.GoogleMapsActivity"
-			android:theme="@android:style/Theme.NoTitleBar">
-		</activity>
-		<activity android:name=".MainPackage.SignInActivity">
-		</activity>
-		<activity android:name=".MainPackage.RegisterActivity">
-		</activity>
-		<activity android:name=".MainPackage.UserProfileActivity">
-		</activity>
-		<activity android:name=".GoogleMaps.SearchByDistanceActivity">
-		</activity>
-		<activity android:name=".MainPackage.PlaceAddingActivity">
-		</activity>
-		<activity android:name=".MainPackage.UserDataEditingActivity">
-		</activity>
-		<activity android:name=".MainPackage.EditCertainDataActivity">
-		</activity>
-		<activity android:name=".MainPackage.ShowApartmentActivity">
-		</activity>
-		<activity android:name=".MainPackage.ViewPlaceActivity">
-		</activity>
-		<activity android:name=".GoogleMaps.SearchByCityActivity">
-		</activity>
+    <uses-sdk android:minSdkVersion="10" />
 
-	</application>
+    <application
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainPackage.AaqarySplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aaqary.MobileApp.MainPackage.AaqaryActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+
+        <activity
+            android:name=".GoogleMaps.GoogleMapsActivity"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity android:name=".MainPackage.SignInActivity" >
+        </activity>
+        <activity android:name=".MainPackage.RegisterActivity" >
+        </activity>
+        <activity android:name=".MainPackage.UserProfileActivity" >
+        </activity>
+        <activity android:name=".GoogleMaps.SearchByDistanceActivity" >
+        </activity>
+        <activity android:name=".MainPackage.PlaceAddingActivity" >
+        </activity>
+        <activity android:name=".MainPackage.UserDataEditingActivity" >
+        </activity>
+        <activity android:name=".MainPackage.EditCertainDataActivity" >
+        </activity>
+        <activity android:name=".MainPackage.ShowApartmentActivity" >
+        </activity>
+        <activity android:name=".MainPackage.ViewPlaceActivity" >
+        </activity>
+        <activity android:name=".GoogleMaps.SearchByCityActivity" >
+        </activity>
+    </application>
+
 </manifest>

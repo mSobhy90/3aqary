@@ -46,7 +46,6 @@ public class GoogleMapsActivity extends MapActivity {
 	public static double toDistance = 0;
 	public static Context context;
 
-	@SuppressWarnings("deprecation")
 	public void onCreate(Bundle bundle) {
 		super.onCreate(bundle);
 		setContentView(R.layout.googlemaps);
@@ -56,7 +55,7 @@ public class GoogleMapsActivity extends MapActivity {
 		// Create a map view
 		mapView = (MapView) findViewById(R.id.mapview);
 		mapView.setBuiltInZoomControls(true);
-		mapView.setStreetView(true);
+		// mapView.setStreetView(true);
 		mapController = mapView.getController();
 		mapController.setZoom(19); // Zoom 1 is world view
 		locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
